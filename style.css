@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(46, 3, 3);
+  color: white;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #110101;
+    color: white;
+    border: 3px solid black;
+    border-style: outset;
+    cursor: pointer;
+  }
+  
+  #results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .movie {
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #180606;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .movie img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .movie h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .movie p {
+    margin: 5px 0;
+  }
+  
